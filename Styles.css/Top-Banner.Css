@@ -1,0 +1,94 @@
+
+
+.Top-Banner {
+    background-color: #000000;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    margin: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.Top-Banner > .Left-Column > .Banner-Logo img {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.Top-Banner > .Center-Column {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+.Top-Banner > .Center-Column > .Explore {
+    color: #f3da5c;
+    font-size: 1rem;
+    font-family: 'Monsterrat', sans-serif;
+
+}
+
+.Link-Wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    word-spacing: 2px;
+    align-items: center;
+    font-weight: bold;
+
+}
+
+.Top-Banner > .Center-Column > .Link-Wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+.Top-Banner > .Center-Column > .Link-Wrapper > .Nav-Link a {
+    color: #edeeef;
+    text-decoration: none;
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 900;
+}
+
+.Spark {
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    background-color: #000000;
+    font-size: 1rem;
+    color: #c2c2c2;
+    font-family: 'Roboto Flex', sans-serif;
+
+}
+
+
+.Top-Banner > .Right-Column > .Search-Buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.Top-Banner > .Right-Column > .Search-Buttons > .TopBar-BTN {
+    background-color: #36383f;
+    color:#edeeef;
+    padding: 10px 15px;
+    border: 1px solid #36383f;
+    border-radius: 5px;
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: bolder;
+} 
+
+.Top-Banner > .Right-Column > .Search-Buttons > .Icon {
+    display: flex;
+    justify-content: center;
+    color: #7b7e8b;
+    font-size: 30px
+
+}
+

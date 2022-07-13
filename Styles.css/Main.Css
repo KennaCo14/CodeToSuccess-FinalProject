@@ -1,0 +1,87 @@
+.Main {
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: -webkit-linear-gradient(top left, #54565e, #0c0d0f);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 20px;
+    margin: -10px;
+    height: 100%;
+    width: 100%;
+}
+
+.Main > .Main-Picture > .Big-Picture > #Code {
+    margin: 10px;
+    width: 500px;
+    float: right;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+
+
+}
+
+
+.Main > .Main-Picture > .Heading {
+    font-family: 'Lato', sans-serif;
+    color: #edeeef;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.Main > .Main-Paragraph > #Wave{
+    font-size: 2em;
+}
+
+
+.Main > .Main-Paragraph {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: .25fr;
+    font-size: 2.5em;
+    color: #edeeef;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+.Main > .Large-BTNS {
+    display: grid;
+    grid-template-columns: .3fr .3fr;
+    grid-gap: 10px;
+    padding-bottom: 30px;
+
+}
+
+.Main > .Large-BTNS > .Green {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'Roboto Flex', sans-serif;
+    background-color: #4bce79;
+    border: solid 1px #4bce79;
+    border-radius: 3px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+    width: 200px;
+    font-weight: bold;
+}
+
+.Main > .Large-BTNS > .Black {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: #edeeef;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 25px;
+    background-color: #111111;
+    border: solid 1px #111111;
+    border-radius: 3px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+    width: 200px;
+    font-weight: bold;
+
+}
