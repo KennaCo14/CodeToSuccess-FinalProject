@@ -2,7 +2,7 @@
 
     background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
     background-image: -webkit-linear-gradient(top left, #54565e, #0c0d0f);
     display: grid;
@@ -10,7 +10,7 @@
     padding: 20px;
     margin: -10px;
     height: 100%;
-    width: 100%;
+
 }
 
 .Main > .Main-Picture > .Big-Picture > #Code {
@@ -31,25 +31,25 @@
 
 }
 
-.Main > .Main-Paragraph > #Wave{
-    font-size: 2em;
-}
 
 
 .Main > .Main-Paragraph {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: .25fr;
+    grid-template-rows: .2fr;
     font-size: 2.5em;
     color: #edeeef;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: lighter;
+    word-spacing: .25em;
+    line-height: 40px;
+    word-wrap: initial;
 }
 
 .Main > .Large-BTNS {
     display: grid;
     grid-template-columns: .3fr .3fr;
-    grid-gap: 10px;
+    grid-gap: 15px;
     padding-bottom: 30px;
 
 }
@@ -58,14 +58,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    padding: 5px;
     font-size: 25px;
     font-family: 'Roboto Flex', sans-serif;
     background-color: #4bce79;
     border: solid 1px #4bce79;
     border-radius: 3px;
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
-    width: 200px;
+    width: 250px;
     font-weight: bold;
 }
 
@@ -73,7 +73,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    padding: 5px;
     color: #edeeef;
     font-family: 'Roboto Flex', sans-serif;
     font-size: 25px;
